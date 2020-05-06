@@ -7,9 +7,9 @@ module.exports = {
     */
 
       return queryInterface.bulkInsert('Employees', [
-        { name: 'Aaaaa Aaaaaa', createdAt: new Date(), updatedAt: new Date() },
-        { name: 'Bbbbbb B Bbbbb', createdAt: new Date(), updatedAt: new Date()},
-        { name: 'Ccccc Ccccc', createdAt: new Date(), updatedAt: new Date()},
+        { name: 'Scranton Slim', createdAt: new Date(), updatedAt: new Date() },
+        { name: 'Liver Lips Louie', createdAt: new Date(), updatedAt: new Date()},
+        { name: 'Big Jule', createdAt: new Date(), updatedAt: new Date()},
       ], {});
     
   },

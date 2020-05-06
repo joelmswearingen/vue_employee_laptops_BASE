@@ -9,16 +9,27 @@ export default new Router({
             path: '/',
             component: components.Home
         },
+        {
+            path: '/employees',
+            component: components.EmployeeList
+        },
+        {
+            path: '/laptops',
+            component: components.LaptopList
+        },
+        {
+            path: '/employee/:id',
+            name: 'employee',
+            component: components.Employee
+        },
 
-        // TODO /employees route
-        
-        // TODO /laptops route
-
-        // TODO /employee/:id route 
 
         // TODO /laptop/:id route 
 
-        // TODO /create_employee route 
+        {
+            path: '/create_employee',
+            component: components.CreateEmployee
+        }
         
         // TODO /create_laptop route 
         
