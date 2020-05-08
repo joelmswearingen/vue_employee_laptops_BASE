@@ -22,16 +22,21 @@ export default new Router({
             name: 'employee',
             component: components.Employee
         },
-
-
-        // TODO /laptop/:id route 
-
+        {
+            path: '/laptop/:id',
+            name: 'laptop',
+            component: components.Laptop
+        },
         {
             path: '/create_employee',
             component: components.CreateEmployee
+        },
+        {
+            path: '/create_laptop',
+            component: components.CreateLaptop
         }
         
-        // TODO /create_laptop route 
+
         
     ]
 })
