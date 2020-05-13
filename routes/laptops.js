@@ -33,7 +33,7 @@ router.post('/', function(req, res, next){
     })
 })
 
-router.patch('/:id', function(req, res, nexy){
+router.patch('/:id', function(req, res, next){
     Laptop.update(
         req.body, {
             where: {
